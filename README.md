@@ -12,7 +12,7 @@ Based on the userscript https://gist.github.com/LukasLohoff/9e8e0cd985db5cce7057
 ## Installation
 
 - clone this repository (`git clone https://github.com/LukasLohoff/erc-chrome-extension/)
-- open [chrome://extensions/](chrome://extensions/) in Chrome, click "Load unpacked extension..." and select this repository
+- open `chrome://extensions/` in Chrome, click "Load unpacked extension..." and select this repository
 
 
 
