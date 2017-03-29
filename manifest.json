@@ -1,0 +1,19 @@
+{
+  "name": "O2R Sciebo Integration",
+  "description": "Adds a \"Open as executable research compendium\" button to the sciebo webinterface. Clicking this button will open the website http://o2r-uni-muenster.de and fill out the share url form",
+  "version": "0.1",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "webNavigation"
+  ],
+"browser_action": {
+	"default_icon": "icon.png"
+},
+  "content_scripts": [
+	{
+		"matches": ["https://uni-muenster.sciebo.de/*"],
+		"js": ["jquery-3.2.0.min.js", "sciebo.js"]
+	}],
+  "manifest_version": 2
+}
